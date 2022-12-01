@@ -31,7 +31,11 @@ Figure 1: 30-Year Climatology Plot for Virginia
 
 ![era5_agg1.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg1.png)
 
+Figure 2: Average Daily Precipitation for Virginia (1980-2009)
+
 ![era5_agg2.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg2.png)
+
+Figure 3: Plot of Average Daily Precipitation for Virginia (1980-2009)
 
 ### Anomalies
 
