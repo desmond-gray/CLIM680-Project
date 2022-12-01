@@ -24,7 +24,6 @@ The datasets used in my project is The [ERA5 Global Reanalysis](https://www.ecmw
 The yearly average of daily precipitation values is represented by a 30-year climatology plot for Virginia. This was created using the groupby function to separate the data by year, and then applying this to the pyplot package in matplotlib to display the monthly data on a 6 row, 5 column plot. This allows me to display the yeary changes in average daily precipitation values and determine which years show the least and greatest precipitation. Figure 1 displays this 30-Year Climatology plot, with mean precipitation values fluctuating greatly across the entire state.
 
 ![era5_groupby.png](https://desmond-gray.github.io/CLIM680-Project/era5_groupby.png)
-
 Figure 1: 30-Year Climatology Plot for Virginia
 
 ### Aggregates
@@ -32,11 +31,9 @@ Figure 1: 30-Year Climatology Plot for Virginia
 I calculated the mean daily precipitation values for the state throughout my sliced timespan in an attempt to pick up trends during this period. Figures 2 and 3 display a basic line plot and contour plot the mean total precipitation rate.
 
 ![era5_agg1.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg1.png)
-
 Figure 2: Average Daily Precipitation Rate for Virginia (1980-2009)
 
 ![era5_agg2.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg2.png)
-
 Figure 3: Average Daily Precipitation Rate for Virginia (1980-2009)
 
 ### Anomalies
@@ -44,6 +41,7 @@ Figure 3: Average Daily Precipitation Rate for Virginia (1980-2009)
 Next, I decided to plot anomalies for specific areas of interest. I checkde 3 regions of the state that included the cities of Fairfax in northern Virginia, Norton in southwest Virginia, and Virginia Beach in the Southeast. I started by setting coordinates for each city and creating line plots of all of their mtpr values over the timespan. Then, to to display anomalies, I subtracted the monthly average mtpr values for the entire state from the original values. I repeated this process for each location to get a view of how the anomalies would compare in locations of different topography.
 
 ![Screenshot 2022-12-01 at 2.30.59 PM](https://github.com/desmond-gray/CLIM680-Project/blob/main/Screenshot%202022-12-01%20at%202.30.59%20PM.png)
+
 
 ### NAO Composite
 
