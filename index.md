@@ -23,27 +23,28 @@ and longitude ranges of 84W to 74W and 36N to 40N.
 
 ## Code Description
 
-###Aggregates
+### GroupBy
 
-###Anomalies
+### Aggregates
 
-###Composite with the North Atlantic Oscillation
+### Anomalies
 
-###Linear Regression
+### NAO Copmosite
 
-##Results
+### Linear Regression
 
-
-
-##Summary
+## Results
 
 
+## Summary
 
-##Conda Environment
+
+
+## Conda Environment
 
 /home/dgray24/clim_data3.yml
 
-##References
+## References
 
 ECMWF. (n.d.). ERA5. https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5
 
