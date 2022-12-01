@@ -29,11 +29,29 @@ Figure 1: 30-Year Climatology Plot for Virginia
 
 ### Aggregates
 
+![era5_agg1.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg1.png)
+
+![era5_agg2.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg2.png)
+
 ### Anomalies
+
+
 
 ### NAO Composite
 
+![era5_comp1.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp1.png)
+
+![era5_comp2.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp2.png)
+
+![era5_comp3.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp3.png)
+
+### [Function](https://desmond-gray.github.io/CLIM680-Project/ERA5_PythonFunction.ipynb)
+
+
+
 ### Linear Regression
+
+![era5_linreg1.png](https://desmond-gray.github.io/CLIM680-Project/era5_linreg1.png)
 
 ## Results
 
