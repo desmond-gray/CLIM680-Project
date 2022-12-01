@@ -23,6 +23,7 @@ The datasets used in my project is The [ERA5 Global Reanalysis](https://www.ecmw
 
 The yearly average of daily precipitation values is represented by a 30-year climatology plot for Virginia. This was created using the groupby function to separate the data by year, and then applying this to the pyplot package in matplotlib to display the monthly data on a 6 row, 5 column plot. This allows me to display the yeary changes in average daily precipitation values and determine which years show the least and greatest precipitation. Figure 1 displays this 30-Year Climatology plot, with mean precipitation values fluctuating greatly across the entire state.
 
+![era5_groupby.png](https://desmond-gray.github.io/CLIM680-Project/era5_groupby.png)
 
 Figure 1: 30-Year Climatology Plot for Virginia
 
