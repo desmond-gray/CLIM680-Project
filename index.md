@@ -1,4 +1,4 @@
-# Virginia Precipitation Trends between 1980 - 2009
+# 30-Year Virginia Precipitation Climatology
  
 ### Desmond Gray
 #### CLIM 680 - Fall 2022
@@ -18,7 +18,7 @@ the patterns of precipitation in this area over a long timescale and make interp
 The datasets used in my project is The [ERA5 Global Reanalysis](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) provides hourly estimates of a large number 
 of atmospheric, land, and oceanic climate variables from Jan 1959 to present.  It is on a 30km grid. ERA5 combines vast amounts of historical 
 observations into global estimates using advanced modelling and data assimilation systems. Because of the size of this data set, I will only be
-working with the state of Virginia, while focusing on the variable of total precipitation (mtpr) between the years of 1990-2010. I chose the latitude 
+working with the state of Virginia, while focusing on the variable of total precipitation (mtpr) between the years of 1980-2009. I chose the latitude 
 and longitude ranges of 84W to 74W and 36N to 40N.
 
 ## Code Description
