@@ -48,7 +48,7 @@ Figure 3: Average Daily Precipitation Rate for Virginia (1980-2009)
 Next, I decided to plot anomalies for specific areas of interest. I checkde 3 regions of the state that included the cities of Fairfax in northern Virginia, Norton in southwest Virginia, and Virginia Beach in the Southeast. I started by setting coordinates for each city and creating line plots of all of their mtpr values over the timespan. Then, to to display anomalies, I subtracted the monthly average mtpr values for the entire state from the original values. I repeated this process for each location to get an idea of how the anomalies would compare in locations of different topography.
 
 
-### NAO Composite
+### [NAO Composite](https://desmond-gray.github.io/CLIM680-Project/ERA5_Composite.ipynb)
 
 I decided to create my composite with the North Atlantic Oscillation, due to it being geographically closest index to my location of interest that I was able to find. I splie it into 3 arrays for the positive, negative, and neutral phases of the NAO. I also increased the threshold of values to be +/- 0.5 for each phase in order to glean more significance from their correlation (Figure 4). The composite is focused on Spring Months (MAM) due to my research telling me that the likely rainy period for Virginia is March - November. Next, I alignined the NAO phase arrays so that they were on the same timescale as my dataset and finished by matching my anomalies with each respective phase of the NAO (Figure 5). After completing the composite, I performed a t-test to show the significance between the index and my anomalies. I performed the test between Positive and Neeutral NAP Values, with a p-value of 0.05, and plotted the areas of significance with dots (Figure 6).
 
@@ -74,7 +74,7 @@ Figure 6: Composite Precipitation Anomaly Differences between Positive and Neutr
 
 I created a simple python function to convert the units of my precipitation data from kg/m2/s to mm/day.
 
-### Linear Regression
+### [Linear Regression](https://desmond-gray.github.io/CLIM680-Project/ERA5_LinearRegression.ipynb)
 
 I also calculated the linear regression by using the NAO climate index and grouped it by Spring seasonal months (MAM). Next, I sliced the anomalies by year and set the climate index as the independent variable and my dataset as the dependent variable. Then I calculated the coefficient at every location within the state and plotted the spread (Figure 7).
 
@@ -86,12 +86,12 @@ Figure 7: Linear Regression between Spring NAO and Daily Precipitation Anomalies
 
 ## Results
 
-
+When looking at the 30-year climatology plot, Virginia appears to go through about one very rainy year (>4mm/day) every decade, followed by relatively dry years (<3mm/day). The anomalies in all regions showed very little indication of trending in either direction. Regression analysis also indicates that none the NAO phases (positive or negative) have much impact on Virginia precipitation clmatology and anomalies, as there is very little correlation within this regression coefficients throughout the state.
 
 
 ## Summary
 
-
+This project gave me good insight into the precipitation climatology of Virginia over a 30 year span. I learned that the NAO has little if any correlation to the total precipitation in Virginia or its anomalies. I would like to further tmy research by finding another index that my be more applicable to my geographical location, as well as diving more into how different topographical regions within the state are correlated to their precipitation rates.
 
 
 ## Conda Environment
