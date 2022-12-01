@@ -36,9 +36,12 @@ I calculated the mean daily precipitation values for the state throughout my sli
 Figure 2: Average Daily Precipitation Rate for Virginia (1980-2009)
 
 
+
 ![era5_agg2.png](https://desmond-gray.github.io/CLIM680-Project/era5_agg2.png)
 
 Figure 3: Average Daily Precipitation Rate for Virginia (1980-2009)
+
+
 
 ### [Anomalies](https://desmond-gray.github.io/CLIM680-Project/ERA5_Anomalies.ipynb)
 
@@ -53,27 +56,41 @@ I decided to create my composite with the North Atlantic Oscillation, due to it 
 
 Figure 4: Spring NAO Phases 1950-2020
 
+
+
 ![era5_comp2.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp2.png)
 
 Figure 5: Daily Precipitation Anomalies During NAO Phases (1980-2009)
+
+
 
 ![era5_comp3.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp3.png)
 
 Figure 6: Composite Precipitation Anomaly Differences between Positive and Neutral NAO Phases
 
 
+
 ### [Function](https://desmond-gray.github.io/CLIM680-Project/ERA5_PythonFunction.ipynb)
 
-
+I created a simple python function to convert the units of my precipitation data from kg/m2/s to mm/day.
 
 ### Linear Regression
 
+I also calculated the linear regression by using the NAO climate index and grouped it by Spring seasonal months (MAM). Next, I sliced the anomalies by year and set the climate index as the independent variable and my dataset as the dependent variable. Then I calculated the coefficient at every location within the state and plotted the spread (Figure 7).
+
 ![era5_linreg1.png](https://desmond-gray.github.io/CLIM680-Project/era5_linreg1.png)
+
+Figure 7: Linear Regression between Spring NAO and Daily Precipitation Anomalies
+
+
 
 ## Results
 
 
+
+
 ## Summary
+
 
 
 
