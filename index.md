@@ -45,7 +45,7 @@ Figure 3: Average Daily Precipitation Rate for Virginia (1980-2009)
 
 ### [Anomalies](https://desmond-gray.github.io/CLIM680-Project/ERA5_Anomalies.ipynb)
 
-Next, I decided to plot anomalies for specific areas of interest. I checkde 3 regions of the state that included the cities of Fairfax in northern Virginia, Norton in southwest Virginia, and Virginia Beach in the Southeast. I started by setting coordinates for each city and creating line plots of all of their mtpr values over the timespan. Then, to to display anomalies, I subtracted the monthly average mtpr values for the entire state from the original values. I repeated this process for each location to get an idea of how the anomalies would compare in locations of different topography.
+Next, I decided to plot anomalies for specific areas of interest. I checked 3 regions of the state that included the cities of Fairfax in northern Virginia, Norton in southwest Virginia, and Virginia Beach in the Southeast. I started by setting coordinates for each city and creating line plots of all of their mtpr values over the timespan. Then, to to display anomalies, I subtracted the monthly average mtpr values for the entire state from the original values. I repeated this process for each location to get an idea of how the anomalies would compare in locations of different topography.
 
 
 ### [NAO Composite](https://desmond-gray.github.io/CLIM680-Project/ERA5_Composite.ipynb)
