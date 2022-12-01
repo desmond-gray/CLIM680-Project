@@ -15,15 +15,16 @@ the patterns of precipitation in this area over a long timescale and make interp
 
 ## Data
 
-The datasets used in my project is The [ERA5 Global Reanalysis](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) provides hourly estimates of a large number 
-of atmospheric, land, and oceanic climate variables from Jan 1959 to present.  It is on a 30km grid. ERA5 combines vast amounts of historical 
-observations into global estimates using advanced modelling and data assimilation systems. Because of the size of this data set, I will only be
-working with the state of Virginia, while focusing on the variable of total precipitation (mtpr) between the years of 1980-2009. I chose the latitude 
-and longitude ranges of 84W to 74W and 36N to 40N.
+The datasets used in my project is The [ERA5 Global Reanalysis](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) provides hourly estimates of a large number of atmospheric, land, and oceanic climate variables from Jan 1959 to present.  It is on a 30km grid. ERA5 combines vast amounts of historical observations into global estimates using advanced modelling and data assimilation systems. Because of the size of this data set, I will only be working with the state of Virginia, while focusing on the variable of total precipitation (mtpr) between the years of 1980-2009. I chose the latitude and longitude ranges of 84W to 74W and 36N to 40N.
 
 ## Code Description
 
 ### GroupBy
+
+The yearly average of daily precipitation values is represented by a 30-year climatology plot for Virginia. This was created using the groupby function to separate the data by year, and then applying this to the pyplot package in matplotlib to display the monthly data on a 6 row, 5 column plot. This allows me to display the yeary changes in average daily precipitation values and determine which years show the least and greatest precipitation. Figure 1 displays this 30-Year Climatology plot.
+
+
+Figure 1: 30-Year Climatology Plot for Virginia
 
 ### Aggregates
 
