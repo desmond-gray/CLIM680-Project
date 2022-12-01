@@ -1,4 +1,4 @@
-# 30-Year Virginia Precipitation Climatology
+# 30-Year Precipitation Analysis of Virginia
  
 ### Desmond Gray
 #### CLIM 680 - Fall 2022
