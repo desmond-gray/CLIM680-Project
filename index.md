@@ -47,11 +47,20 @@ Next, I decided to plot anomalies for specific areas of interest. I checkde 3 re
 
 ### NAO Composite
 
+I decided to create my composite with the North Atlantic Oscillation, due to it being geographically closest index to my location of interest that I was able to find. I splie it into 3 arrays for the positive, negative, and neutral phases of the NAO. I also increased the threshold of values to be +/- 0.5 for each phase in order to glean more significance from their correlation (Figure 4). The composite is focused on Spring Months (MAM) due to my research telling me that the likely rainy period for Virginia is March - November. Next, I alignined the NAO phase arrays so that they were on the same timescale as my dataset and finished by matching my anomalies with each respective phase of the NAO (Figure 5). After completing the composite, I performed a t-test to show the significance between the index and my anomalies. I performed the test between Positive and Neeutral NAP Values, with a p-value of 0.05, and plotted the areas of significance with dots (Figure 6).
+
 ![era5_comp1.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp1.png)
+
+Figure 4: Spring NAO Phases 1950-2020
 
 ![era5_comp2.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp2.png)
 
+Figure 5: Daily Precipitation Anomalies During NAO Phases (1980-2009)
+
 ![era5_comp3.png](https://desmond-gray.github.io/CLIM680-Project/era5_comp3.png)
+
+Figure 6: Composite Precipitation Anomaly Differences between Positive and Neutral NAO Phases
+
 
 ### [Function](https://desmond-gray.github.io/CLIM680-Project/ERA5_PythonFunction.ipynb)
 
