@@ -7,7 +7,7 @@
 
 ## Introduction
 
-My initial proposal was to comparie the difference between coarse GPCP precipitation data from stations and satellites with 
+My initial proposal was to compare the difference between coarse GPCP precipitation data from stations and satellites with 
 higher resolution ERA5 data that has been processed through a model. I will be comparing the grids to show how the points
 differ when calculating climatology and anomalies. Due to covering such a small area, using the low resolution GPCP dataset did not make sense.
 Therefore, I have shifted my focus to analysing total precipitation in Virginia due to it being the region most relevant to our class. I will assess
